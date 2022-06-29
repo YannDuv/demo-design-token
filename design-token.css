@@ -1,0 +1,21 @@
+/*** EXAMPLE GENERATED ***/
+:root {
+  /*** GLOBAL TOKEN ***/
+  --spectrum-global-purple: purple;
+  --spectrum-global-coral: coral;
+
+  /*** ALIAS TOKEN ***/
+  --spectrum-alias-cta-background: var(--spectrum-global-purple);
+  --spectrum-alias-form-background: var(--spectrum-global-coral);
+
+  /*** COMPONENT SPECIFIC TOKEN ***/
+  --spectrum-button-m-accent-fill-texticon-background-color: var(
+    --spectrum-alias-cta-background
+  );
+  --spectrum-checkbox-m-box-border-color-selected: var(
+    --spectrum-alias-form-background
+  );
+  --spectrum-radio-m-emphasized-circle-border-color-selected: var(
+    --spectrum-alias-form-background
+  );
+}

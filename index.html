@@ -1,0 +1,38 @@
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>1. Design tokens 🏷</title>
+    <meta name="viewport" content="width=device-width" />
+    <script
+      src="https://jspm.dev/@spectrum-web-components/bundle/elements.js"
+      type="module"
+      async
+    ></script>
+    <link href="./design-token.css" rel="stylesheet" />
+  </head>
+  <body>
+    <sp-theme scale="large" color="light">
+      <h1>
+        Les Design tokens, exemple de Spectrum
+        <img
+          src="data:image/png;base64,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"
+          alt="Adobe"
+          height="28px"
+          width="28px"
+        />
+      </h1>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+        "
+      >
+        <sp-button onclick="alert('I was clicked');">Click me!</sp-button>
+        <sp-checkbox size="m" checked>Medium Checked</sp-checkbox>
+        <sp-radio value="first" emphasized checked>Option 1</sp-radio>
+      </div>
+    </sp-theme>
+  </body>
+</html>
